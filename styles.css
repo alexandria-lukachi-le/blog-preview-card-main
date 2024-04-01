@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+}
+
+html {
+
+}
+
+.blog-card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px;
+    width: 60%;
+}
+
+.blog-image {
+    display: flex;
+    justify-content: center;
+    margin:1em;
+}
+
+svg {
+    border-radius: 10px;
+}
+
+.info-tag {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);;
+    font-weight: 800;
+    text-align: center;
+    width: 60px;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.profile {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+p, h1 {
+    font-family: "Figtree", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    margin: 1em;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+}
+
+.description {
+
+}
